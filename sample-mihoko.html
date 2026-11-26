@@ -425,6 +425,15 @@
 @media (max-width: 640px) { .sp-nowrap { white-space: nowrap; } }
 .sticky-nav a { flex: 1; text-align: center; background: transparent; color: #F5EFE0; font-size: 13.5px; font-weight: 600; padding: 10px 4px; border-radius: 999px; text-decoration: none; }
 .sticky-nav a.reserve { background: var(--gold); color: #0B0B0D; font-weight: 700; }
+
+      /* ---------- polish ---------- */
+      html { scroll-behavior: smooth; }
+      body { line-height: 1.9; }
+      section { padding: 72px 0 8px; }
+      .card-item { padding: 28px 24px 20px; }
+      .card-item .num { font-size: 32px; }
+      .card-item h3 { font-size: 19px; letter-spacing: .03em; }
+      .btn { letter-spacing: .08em; }
 </style>
   </head>
   <body>
@@ -437,8 +446,8 @@
           <img class="hero-logo" src="data:image/jpeg;base64,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" alt="プライベートサロンM ロゴ" />
           <p class="salon-latin">PRIVATE SALON M</p>
           <p class="salon-name">プライベートサロンM（エム）</p>
-          <h1>武蔵小杉駅から<span class="nowrap">徒歩3分</span>。<br />完全個室で、<br class="sp-br" />都度払いの<br />脱毛＆脂肪冷却サロン</h1>
-          <p class="lead">人目を気にせず、自分のペースで通える完全個室・完全予約制のサロンです。料金は1回ごとの都度払いで、高額なコース契約はありません。まずは新規価格で、気軽に試してみてください。</p>
+          <h1>脱毛も、<span class="gold">脂肪冷却</span>も。<br />完全個室で、都度払い。</h1>
+          <p class="lead">武蔵小杉駅から徒歩3分。小学生から60代まで、男女問わず通える完全個室・完全予約制のプライベートサロンです。料金は1回ごとの都度払いで、高額なコース契約はありません。</p>
           <div class="hero-cta">
             <a class="btn" href="https://line.me/ti/p/@636alile" target="_blank" rel="noopener">LINEで予約する</a>
             <a class="btn sub" href="#menu">メニュー・料金を見る</a>
@@ -617,23 +626,23 @@
         <div class="card-list cols2">
           <div class="card-item">
             <div class="num">01</div>
-            <h3>完全個室1室のプライベート空間</h3>
-            <p>個室は1室のみ。施術中はお一人だけの空間なので、人目を気にせず、ゆったりお過ごしいただけます。</p>
+            <h3>脱毛と脂肪冷却が、ここだけで完結</h3>
+            <p>毛のお悩みも、体型のお悩みも。脱毛と脂肪冷却の両方を、同じサロン・同じ担当で受けられます。サロンを掛け持ちする必要はありません。</p>
           </div>
           <div class="card-item">
             <div class="num">02</div>
-            <h3>オーナーが全施術を担当</h3>
-            <p>施術も接客も、オーナーの伏見が一人で担当。担当が変わることがないので、毎回安心してお任せいただけます。</p>
+            <h3>男女問わず、家族でも通える</h3>
+            <p>小学生から60代まで、男性も女性も。ご夫婦や親子で通われるお客様も多くいらっしゃいます。お子さま同伴・お二人でのご来店も歓迎です。</p>
           </div>
           <div class="card-item">
             <div class="num">03</div>
-            <h3>都度払いで、コース契約なし</h3>
-            <p>料金はわかりやすくシンプルに。1回ごとにお支払いいただく都度払いだから、自分のタイミングで無理なく通えます。回数券のご用意もあります。</p>
+            <h3>完全個室1室、担当はずっと一人</h3>
+            <p>個室は1室のみで、施術も接客もオーナーの伏見が一人で担当。他のお客様と顔を合わせることはなく、担当が変わる心配もありません。</p>
           </div>
           <div class="card-item">
             <div class="num">04</div>
-            <h3>小学生から60代まで、男女問わず</h3>
-            <p>幅広い年代のお客様が通うサロンです。お子さま同伴や、付き添い・お二人でのご来店も歓迎しています。</p>
+            <h3>都度払いで、コース契約なし</h3>
+            <p>料金はわかりやすくシンプルに。1回ごとにお支払いいただく都度払いだから、自分のタイミングで無理なく通えます。回数券のご用意もあります。</p>
           </div>
         </div>
       </section>
